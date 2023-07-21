@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "6119ed11-0ea3-4b3b-9b78-250ff96f357f",
+		"name": "Restassured1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26612576"
+	},
+	"item": [
+		{
+			"name": "bookingdetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9012/FlyAway/completepurchase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9012",
+					"path": [
+						"FlyAway",
+						"completepurchase"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
